@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jet Set Go - Rohan</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html" id="logo"><span>J</span>etSetGo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span><i class="fa-solid fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link active" href="#book">Book</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link active" href="#packages">Packages</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link active" href="#services">Services</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link active" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link active" href="#about">About</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="home">
+  <div class="content"> 
+    <h5>Beyond the Wonders !</h5>
+    <h1>Visit <span class="changecontent"></span></h1>
+    <p>They say the world has seven wonders. We think that's only the beginning.</p>
+    <a href="#book">Book Place</a>
+  </div>
+</div>
+
+<section class="book" id="book">
+<div class="container">
+<div class="main-text">
+  <h1><span>B</span>ook</h1>
+</div>
+
+<div class="row">
+  <div class="col-md-6 py-3 py-md-0">
+    <div class="card">
+      <img src="https://img.freepik.com/free-photo/travel-concept-with-baggage_23-2149153260.jpg?2&w=900&t=st=1696760851~exp=1696761451~hmac=02c80432898145fbd0258d65384b55fe81e371617f9aaa1ef0daa75b0ddf8226" alt="image">
+    </div>
+  </div>
+  <div class="col-md-6 py-3 py-md-0">
+    <form action="#">
+      <input type="text" class="form-control" placeholder="Where To" required><br>
+      <input type="text" class="form-control" placeholder="How Many Members" required><br>
+      <input type="date" class="form-control" placeholder="Arrival" required><br>
+      <input type="date" class="form-control" placeholder="Leaving" required><br>
+      <input type="text" class="form-control" placeholder="How Many Days" required><br>
+      <textarea class="form-control" rows="5" name="text" placeholder="Enter your Name & Details"></textarea>
+      <input type="submit" value="Book Now" class="submit" required>
+    </form>
+  </div>
+</div>
+</div>
+</section>
+
+<section class="packages" id="packages">
+  <div class="container">
+    <div class="main-txt">
+      <h1><span>P</span>ackages</h1>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1454537468202-b7ff71d51c2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" class="card-img-top"
+            alt="Hollywood Sign on The Hill" />
+          <div class="card-body">
+            <h3 class="card-title">United Kingdom</h3>
+            <p>Discover the UK's iconic landmarks and vibrant culture. Book your adventure today!</p>
+
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6>Price: <strong>$999</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80" />
+          <div class="card-body">
+            <h3 class="card-title">France</h3>
+            <p>Experience Spain's culture, cuisine, and coastal beauty. Book your Spanish getaway now!</p>
+
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6>Price: <strong>$1,199</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1531449862596-16e4c62e2b10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" />
+          <div class="card-body">
+            <h3 class="card-title">United States</h3>
+            <p>Explore the diverse beauty and endless adventures of the United States. Plan your American dream today!</p>
+
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6>Price: <strong>$1,499</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1517687583203-44844bdf479c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" class="card-img-top"
+            alt="Hollywood Sign on The Hill" />
+          <div class="card-body">
+            <h3 class="card-title">China</h3>
+            <p>Embark on a journey to China's ancient wonders and modern marvels. Book your Chinese adventure now!</p>
+
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6>Price: <strong>$1,299</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80" />
+          <div class="card-body">
+            <h3 class="card-title">India</h3>
+            <p>Experience the colors, cultures, and spirituality of India. Plan your Indian adventure today!</p>
+
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6>Price: <strong>$999</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1595361316014-d4e3f86aa26d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" />
+          <div class="card-body">
+            <h3 class="card-title">Pakistan</h3>
+            <p>Discover the beauty and heritage of Pakistan. Book your Pakistani journey now!</p>
+
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6>Price: <strong>$1,099</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1650367310179-e1b5b8e453c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="card-img-top"
+            alt="Hollywood Sign on The Hill" />
+          <div class="card-body">
+            <h3 class="card-title">Mexico</h3>
+            <p>Explore the flavors, beaches, and rich culture of Mexico. Start your Mexican adventure today!</p>
+
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6>Price: <strong>$1,199</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1603105722969-7d1815b82f21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2060&q=80" class="card-img-top"
+            alt="Hollywood Sign on The Hill" />
+          <div class="card-body">
+            <h3 class="card-title">Italy</h3>
+            <p>Experience the art, cuisine, and history of Italy. Begin your Italian adventure today!</p>
+
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6>Price: <strong>$1,299</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1551352912-484163ad5be9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" />
+          <div class="card-body">
+            <h3 class="card-title">Australia</h3>
+            <p>Discover the natural beauty and unique wildlife of Australia. Plan your Australian adventure today!</p>
+
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h6>Price: <strong>$1,399</strong></h6>
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="container">
+    <div class="main-txt">
+      <h1><span>S</span>ervices</h1>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <i class="fa fa-hotel"></i>
+        <div class="card-body">
+          <h3>Affordable Hotel</h3>
+          <p>Experience comfortable and budget-friendly stays with our selection of affordable hotels. We ensure you get the most value for your money, without compromising on quality.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <i class="fa fa-utensils"></i>
+        <div class="card-body">
+          <h3>Foods & Drinks</h3>
+          <p>Indulge in a culinary journey with our diverse range of foods and drinks. From local delicacies to international cuisines, savor delightful flavors that cater to every palate.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <i class="fa fa-bullhorn"></i>
+        <div class="card-body">
+          <h3>Safety</h3>
+          <p>Your safety is our utmost priority. We take comprehensive measures to ensure your complete peace of mind during your travels, so you can explore with absolute confidence.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <i class="fa fa-globe-asia"></i>
+          <div class="card-body">
+            <h3>Around the World</h3>
+            <p>Embark on a globetrotting adventure with us and discover the beauty of diverse cultures and landscapes around the world. Your next destination is just a click away.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <i class="fa fa-plane"></i>
+          <div class="card-body">
+            <h3>Fastest Travel</h3>
+            <p>Travel with speed and efficiency as we prioritize fast and convenient transportation options. Reach your desired destinations swiftly and make the most of your journey.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <i class="fa fa-hiking"></i>
+          <div class="card-body">
+            <h3>Adventure</h3>
+            <p>Seek the thrill of adventure with our curated experiences. Whether it's hiking in the mountains, diving in the ocean, or exploring the wilderness, we've got your adventurous spirit covered.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="main-txt">
+      <h1><span>G</span>allery</h1>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1578746401323-f997c71f4096?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="" height="230px">
+      </div>
+    </div>
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1598402453861-4fbcbf6ced3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="" height="230px">
+      </div>
+    </div>
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1529802492383-bafa6605c091?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="" height="230px">
+      </div>
+    </div>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1562679299-266edbefd6d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80" alt="" height="230px">
+        </div>
+      </div>
+  
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1615493749624-7a97d4b18fe6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1930&q=80" alt="" height="230px">
+        </div>
+      </div>
+  
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1519408930538-2c24bffbc82f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1991&q=80" alt="" height="230px">
+        </div>
+      </div>
+      </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container">
+
+    <div class="main-txt">
+      <h1>About<span> Us</span></h1>
+    </div>
+
+  <div class="row" style="margin-top: 50px;">
+
+    <div class="col-md-6 py-3 py-md-0">
+      <div class="card">
+        <img src="travel-concept-with-worldwide-landmarks.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-md-6 py-3 py-md-0">
+      <h2>How Travel Agency Works</h2>
+      <p>JetSetGo is not just a travel agency; it's a story of wanderlust, adventure, and discovery. Founded by a group of passionate travelers, our journey began with a shared dream: to make the world's wonders accessible to everyone.</p>
+      <p>Over the years, we've meticulously crafted unique travel experiences that go beyond the ordinary. Whether you're seeking thrilling escapades, cultural immersion, or tranquil getaways, we have the expertise to curate the perfect journey for you.</p>
+      <p>Our commitment to quality, authenticity, and exceptional service has earned us the trust of countless travelers worldwide. We take pride in turning your travel dreams into unforgettable memories.</p>
+            <button id="about-btn">Read More...</button>
+    </div>
+
+  </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <h1><span>J</span>etSetGo</h1>
+  <p>Where Adventure Begins!</p>
+  <div class="social-links">
+    <a href="mailto:rohansamuel134@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/rohan-samuel-4a096a226"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/ROHANSAMUEL134"><i class="fa-brands fa-github"></i></a>
+  </div>
+  <div class="credit">
+    <p>Designed by <span>ROHAN SAMUEL J</span></p>
+  </div>
+  <div class="copyright">
+    <p>&copy; copyright Rohan Sameul J. All Rights Reserved.</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
